@@ -110,6 +110,12 @@ Here’s a brief section for inputs and outputs that you can include in your REA
 - **Predicted Rate**: The predicted price of buffalo milk based on the input values.
 - **Prediction Time**: The timestamp when the prediction was made.
 
+![image](https://github.com/user-attachments/assets/b44089e4-f30c-4320-8217-6cc5ebe89c48)
+
+![image](https://github.com/user-attachments/assets/d7403d6c-58cf-4b3f-aa81-eae92bd242e4)
+
+
+
 ### Example Output:
 
 - **Predicted Rate**: `45.30` (price in your chosen currency)
