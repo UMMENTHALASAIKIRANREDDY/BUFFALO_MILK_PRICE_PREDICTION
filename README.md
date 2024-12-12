@@ -90,6 +90,45 @@ The predictions are saved in a CSV file named `predicted.csv`. This file is upda
     └── prediction.html       # HTML table to display prediction history
 ```
 
+
+Here’s a brief section for inputs and outputs that you can include in your README:
+
+## Input
+
+- **RateDate**: The date on which the prediction is to be made (format: `YYYY-MM-DD`).
+- **SNF**: Solid-Not-Fat content (numeric value, e.g., 8.5).
+- **FAT**: FAT content (numeric value, e.g., 3.5).
+
+### Example Input:
+
+- **RateDate**: `2024-12-12`
+- **SNF**: `8.5`
+- **FAT**: `3.5`
+
+## Output
+
+- **Predicted Rate**: The predicted price of buffalo milk based on the input values.
+- **Prediction Time**: The timestamp when the prediction was made.
+
+### Example Output:
+
+- **Predicted Rate**: `45.30` (price in your chosen currency)
+- **Prediction Time**: `2024-12-12 14:30:00`
+
+### Prediction History (Stored in CSV):
+
+Each prediction is stored with the following columns:
+
+- **RateDate**: The input date for the prediction.
+- **SNF**: The input SNF value.
+- **FAT**: The input FAT value.
+- **Rate**: The predicted price.
+- **PredictionTime**: The time when the prediction was generated.
+
+---
+
+This section describes the input format for users and the outputs they will receive. You can adjust the values as needed depending on your actual prediction model and output format.
+
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
